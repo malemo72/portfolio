@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">My portfolio</a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1"> My name is Nestor Malemo</div>
+                
+                <div class="text-3">And I'm a software developer <span class="typing"></span></div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <img src="data:image/jpeg;base64,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" alt="">
+            <h2 class="title">About me</h2>
+            <p>I am a student at zetech university pursuing bachelors of science in information technolgy</p>
+            <div class="about-content">
+                <div class="column left">
+                    
+                </div>
+                <div class="column right">
+                    <div class="text"> <span class="typing-2"></span></div>
+                    <p></p>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+                        
+
+   
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Nestor Malemo</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Nairobi</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">nestor.nasikegmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+        <span>Created By <a href="https://www.nestaweb.com">nestanasike</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
